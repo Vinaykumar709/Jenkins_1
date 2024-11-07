@@ -22,22 +22,22 @@ pipeline {
         }
          stage('Stage-4 : Test') { 
             steps {
-                sh 'mvn test
+                sh 'mvn test'
             }
         }
           stage('Stage-5 : Package') { 
             steps {
-                sh 'mvn package 
+                sh 'mvn package'
             }
         }
           stage('Stage-6 : Verify') { 
             steps {
-                sh 'mvn verify 
+                sh 'mvn verify'
             }
         }
           stage('Stage-7 : Install') { 
             steps {
-                sh 'mvn install 
+                sh 'mvn install'
             }
         }
     }
