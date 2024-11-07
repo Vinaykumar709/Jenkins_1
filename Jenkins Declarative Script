@@ -3,7 +3,7 @@ node {
    def mvnHome
   stage('Prepare') {
       git url: 'https://github.com/Vinaykumar709/Jenkins_1.git', branch: 'main'
-      mvnHome = tool 'maven'
+      mvnHome = tool 'Maven'
    }
   stage ('Clean') {
       sh "'${mvnHome}/bin/mvn' clean"
