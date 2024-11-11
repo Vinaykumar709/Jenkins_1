@@ -18,11 +18,6 @@
         <sonar.organization>Sonar</sonar.organization>
         <sonar.projectKey>Sonar</sonar.projectKey>
         <sonar.login>sqp_9512f56e4f80c7907d1542dd124b2543d39e284b</sonar.login>
-
-          <!-- <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-          <sonar.organization>binaryops</sonar.organization>  
-          <sonar.projectKey>binaryops_javaapps</sonar.projectKey>
-          <sonar.login>274dad7664a55ece78dcfeb5f17862d2eb7b7e0a</sonar.login> -->
     </properties>
 
        
